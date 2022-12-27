@@ -6,7 +6,7 @@ metadata:
   name: frontend
 spec:
   containers:
-  - image: kovtalex/hipster-frontend:v0.0.1
+  - image: darkzorro/hipster-frontend:v0.0.1
     name: frontend
     env:
       - name: PRODUCT_CATALOG_SERVICE_ADDR
