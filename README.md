@@ -225,4 +225,14 @@ NAME         DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR 
 kube-proxy   1         1         1       1            1           kubernetes.io/os=linux   161m   kube-proxy   k8s.gcr.io/kube-proxy:v1.24.3   k8s-app=kube-proxy
 ```
 
+### Playing with pods
+
+#### Web app
+
+* Create pod
+
+```
+PS W:\Otus\Kubernetes\2 Занятие\kubernetes-intro> kubectl.exe apply -f .\web-pod.yaml
+pod/web created
+```
 
