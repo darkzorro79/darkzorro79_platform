@@ -147,7 +147,7 @@ subjects:
   namespace: dev
 ```
 
-- Создади Service Account **ken** в Namespace **dev**
+- Создадим Service Account **ken** в Namespace **dev**
 
 04-serviceaccount-ken.yaml
 
