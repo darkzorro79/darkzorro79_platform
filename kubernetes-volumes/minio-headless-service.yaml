@@ -11,15 +11,3 @@ spec:
       name: minio
   selector:
     app: minio
-      env:
-      - name: MINIO_ACCESS_KEY
-        valueFrom:
-          secretKeyRef:
-            name: minio
-            key: username
-      - name: MINIO_SECRET_KEY
-        valueFrom:
-          secretKeyRef:
-            name: minio
-            key: password
-
