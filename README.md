@@ -939,7 +939,8 @@ For more details, please visit https://github.com/goharbor/harbor
 
 Проверяем: <https://harbor.84.201.150.236.nip.io/>
 
-
+![alt text](https://github.com/darkzorro79/darkzorro79_platform/raw/kubernetes-templating/kubernetes-templating/harbor.png)
+![alt text](https://github.com/darkzorro79/darkzorro79_platform/raw/kubernetes-templating/kubernetes-templating/harbor_crt.png)
 
 
 ### Используем helmfile | Задание со ⭐
