@@ -156,7 +156,7 @@ stable/nginx-ingress    1.41.3          v0.34.1         DEPRECATED! An nginx Ing
 stable/nginx-ingress    1.41.2          v0.34.1         An nginx Ingress controller that uses ConfigMap...
 stable/nginx-ingress    1.41.1          v0.34.1         An nginx Ingress controller that uses ConfigMap...
 ```
-есть подозорение что весь репозиторий протух.
+есть подозорение, что весь репозиторий протух.
 
 ```console
  yc managed-kubernetes cluster --id=$K8S_ID get
@@ -756,6 +756,8 @@ helm ls -n chartmuseum
 NAME            NAMESPACE       REVISION        UPDATED                                 STATUS          CHART                   APP VERSION
 chartmuseum     chartmuseum     1               2023-03-10 15:01:32.664716979 +0000 UTC deployed        chartmuseum-3.1.0       0.13.1
 ```
+https://github.com/darkzorro79/darkzorro79_platform/raw/kubernetes-templating/kubernetes-templating/chartmuseum.png
+https://github.com/darkzorro79/darkzorro79_platform/raw/kubernetes-templating/kubernetes-templating/chartmuseum_crt.png
 
 - **helm 2** хранил информацию о релизе в configMap'ах (kubectl get configmaps -n kube-system)
 - **Helm 3** хранит информацию в secrets (kubectl get secrets - n chartmuseum)
