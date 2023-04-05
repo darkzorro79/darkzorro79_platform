@@ -1,0 +1,19 @@
+expose:
+  type: ingress
+  tls:
+    enabled: true
+    certSource: secret
+    secret:
+      secretName: harbor-ingress-tls
+  ingress:
+    hosts:
+      core: harbor.84.201.150.236.nip.io
+    controller: nginx
+    annotations:
+      kubernetes.io/tls-acme: "true"
+      cert-manager.io/cluster-issuer: "letsencrypt-production"
+      cert-manager.io/acme-challenge-type: http01
+      kubernetes.io/ingress.class: nginx
+externalURL: https://harbor.84.201.150.236.nip.io/
+notary:
+  enabled: false
